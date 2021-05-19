@@ -1,0 +1,14 @@
+[package]
+
+name = "address_service"
+version = "0.1.0"
+authors = ["Ryan Cammer <ryancammer@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.7"
+rocket_contrib = "0.4.7"
+serde = "1.0.126"
+serde_json = "1.0.64"
+tantivy = "0.14.0"
+tempfile = "3.2.0"
