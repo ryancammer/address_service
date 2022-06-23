@@ -1,5 +1,13 @@
 # Address Service
 
+__NOTE__: This was written for an interview question at Lob, where
+the question was vague. I don't have a copy of the original question
+anymore. Basically, the interviewer didn't like my answer because it
+wasn't some RESTful service for an individual's address book. However,
+the requirements never specified that an individual address book was
+what they were looking for. I think my solution for a generic address 
+service is more interesting :)
+
 Address Service provides a service for searching known addresses
 using a hint, which then returns a list of addresses. An address
 file, addresses.json, provides all of the known addresses. There
